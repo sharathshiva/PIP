@@ -1,0 +1,12 @@
+package com.example.restapi.model;
+
+import javax.persistence.Id;
+
+import org.springframework.data.mongodb.core.mapping.Document;
+
+@Document
+public class Profiles {
+
+	@Id
+	private int id;
+}

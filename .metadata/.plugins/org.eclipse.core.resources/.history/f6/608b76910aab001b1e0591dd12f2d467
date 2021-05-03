@@ -1,0 +1,18 @@
+package com.example.democontroller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+import com.example.demo.Model.Message;
+
+@Controller
+public class MessageController {
+
+	@ResponseBody
+	@GetMapping("/message")
+	Message getMessage() {
+		return new Message("first message");
+	}
+	
+}

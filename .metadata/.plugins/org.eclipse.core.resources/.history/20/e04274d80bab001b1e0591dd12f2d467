@@ -1,0 +1,21 @@
+package com.example.demo.Model;
+
+public class Message {
+	
+	private String content;
+
+	public Message(String content) {
+		// TODO Auto-generated constructor stub
+		this.content = content;
+	}
+
+	public String getContent() {
+		return content;
+	}
+
+	public void setContent(String content) {
+		this.content = content;
+	}
+
+	
+}

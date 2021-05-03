@@ -1,0 +1,2 @@
+spring.data.mongodb.uri= mongodb+srv://sharath:sharu123@zensar.8rpue.mongodb.net/db01?retryWrites=true&w=majority
+spring.datasource.username=user

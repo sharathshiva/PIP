@@ -1,0 +1,13 @@
+package com.example.restapi.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.example.restapi.service.ProfileService;
+
+@RestController
+public class ProfilesController {
+
+	@Autowired
+	private ProfileService profileService;
+}

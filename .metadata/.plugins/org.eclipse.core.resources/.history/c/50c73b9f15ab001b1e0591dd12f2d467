@@ -1,0 +1,9 @@
+package com.example.restapi;
+
+import org.springframework.data.mongodb.repository.MongoRepository;
+
+import com.example.restapi.model.Profiles;
+
+public interface ProfileService extends MongoRepository<Profiles, Integer>{
+
+}

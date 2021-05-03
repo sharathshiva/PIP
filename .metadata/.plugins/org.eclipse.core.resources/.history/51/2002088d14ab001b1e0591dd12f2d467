@@ -1,0 +1,29 @@
+package com.example.restapi.model;
+
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
+
+import com.fasterxml.jackson.annotation.JsonProperty;
+
+@Document
+public class Profiles {
+
+	@Id
+	@JsonProperty("Id")
+	private int id;
+
+	@JsonProperty("Name")
+	private String name;
+	
+	
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+	
+	
+	
+}
